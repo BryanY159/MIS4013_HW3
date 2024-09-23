@@ -11,12 +11,12 @@
     </thead>
     <tbody>
       <?php
-        while($test = $test->fetch_assoc()) {
+        while($test_row = $test->fetch_assoc()) {
           ?>
           <tr>
-            <td><?php echo $test['idtest']; ?></td>
-            <td><?php echo $test['value']; ?></td>
-            <td><?php echo $test['value2']; ?></td>
+            <td><?php echo $test_row['idtest']; ?></td>
+            <td><?php echo $test_row['value']; ?></td>
+            <td><?php echo $test_row['value2']; ?></td>
           </tr>
           <?php
         }
