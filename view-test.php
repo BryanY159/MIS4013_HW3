@@ -14,9 +14,9 @@
         while($test = $test->fetch_assoc()) {
           ?>
           <tr>
-            <td><?php echo $test['idtest'] ?></td>
-            <td><?php echo $test['value'] ?></td>
-            <td><?php echo $test['value2'] ?></td>
+            <td><?php echo $test['idtest']; ?></td>
+            <td><?php echo $test['value']; ?></td>
+            <td><?php echo $test['value2']; ?></td>
           </tr>
           <?php
         }
