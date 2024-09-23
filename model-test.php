@@ -3,7 +3,7 @@
 function selectTest() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT * FROM 'test'");
+        $stmt = $conn->prepare("select * from test");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
