@@ -5,7 +5,7 @@ require_once("model-test.php");
 $pageTitle = "Test";
 include "view-header.php";
 
-$test = selectTest();
+$test = selectTests();
 
 include "view-test.php";
 include "view-footer.php";
