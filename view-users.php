@@ -7,6 +7,7 @@
         <th>UserID</th>
         <th>Username</th>
         <th>Subscription Type</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -17,6 +18,12 @@
             <td><?php echo $user['UserID']; ?></td>
             <td><?php echo $user['Username']; ?></td>
             <td><?php echo $user['SubscriptionType']; ?></td>
+            <td>
+              <form method="post" action="playlists-by-users.php">
+                <input type="hidden" name="UID" value="<?php echo $user['UserID']; ?>">
+                <button type="submit" class="btn btn-primary">Playlists</button>
+              </form>
+            </td>
           </tr>
           <?php
         }
