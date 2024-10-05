@@ -1,4 +1,4 @@
-<h1>Songs</h1>
+<h1>Playlists</h1>
 
 <div class="table-responsive">
   <table class="table">
