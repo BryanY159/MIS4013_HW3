@@ -4,7 +4,7 @@
     <?php while($playlist = $playlists->fetch_assoc()) { ?>                                                 
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title"><?php echo $playlist['PlaylistName']; ?>/h5>
+          <h class="card-title"><?php echo $playlist['PlaylistName']; ?> /h>
           <p class="card-text">
             <ul class="list-group">
               <?php
