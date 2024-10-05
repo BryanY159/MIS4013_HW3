@@ -24,13 +24,7 @@
               <a class="nav-link" href="artists.php">Artists</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="songs.php">Songs</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="users.php">Users</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="playlists.php">Playlists</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="playlists-with-songs.php">Playlists with Songs</a>
