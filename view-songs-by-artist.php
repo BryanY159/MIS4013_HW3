@@ -18,7 +18,7 @@
             <td><?php echo $song['SongID']; ?></td>
             <td><?php echo $song['Title']; ?></td>
             <td><?php echo $song['Genre']; ?></td>
-            <td><?php echo $song['Name']; ?></td>
+            <td><?php echo $song['Artist Name']; ?></td>
           </tr>
           <?php
         }
