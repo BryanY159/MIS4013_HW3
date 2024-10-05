@@ -4,7 +4,7 @@
   <table class="table">
     <thead>
       <tr>
-        <th>SongsID</th>
+        <th>SongID</th>
         <th>Title</th>
         <th>Genre</th>
         <th>Artist Name</th>
