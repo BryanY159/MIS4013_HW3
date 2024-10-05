@@ -14,7 +14,7 @@
               <?php } ?>
             </ul>
           </p>
-          <p class="card-text"><small class="text-body-secondary">Playlist ID: <?php echo $playlist['PlaylistID']; ?></small></p>
+          <p class="card-text"><small class="text-body-secondary">User ID: <?php echo $playlist['UserID']; ?></small></p>
         </div>
       </div>
     <?php } ?>
