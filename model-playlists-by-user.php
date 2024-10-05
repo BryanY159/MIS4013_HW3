@@ -1,6 +1,6 @@
 <?php
 
-function selectPlaylistsByUsers($UID) {
+function selectPlaylistsByUser($UID) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("select Username, PlaylistID, PlaylistName from users u join playlists p on u.UserID = p.UserID where u.UserID = ?;");
