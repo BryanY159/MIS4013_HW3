@@ -32,6 +32,9 @@
             <li class="nav-item">
               <a class="nav-link" href="playlists.php">Playlists</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="playlists-with-songs.php">Playlists with Songs</a>
+            </li>
           </ul>
         </div>
       </div>
