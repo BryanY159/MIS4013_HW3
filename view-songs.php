@@ -7,7 +7,6 @@
         <th>SongID</th>
         <th>Title</th>
         <th>Genre</th>
-        <th>ArtistID</th>
       </tr>
     </thead>
     <tbody>
@@ -18,7 +17,6 @@
             <td><?php echo $song['SongID']; ?></td>
             <td><?php echo $song['Title']; ?></td>
             <td><?php echo $song['Genre']; ?></td>
-            <td><?php echo $song['ArtistID']; ?></td>
           </tr>
           <?php
         }
