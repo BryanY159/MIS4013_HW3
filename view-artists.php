@@ -11,12 +11,12 @@
     </thead>
     <tbody>
       <?php
-        while($artist_row = $test->fetch_assoc()) {
+        while($artist = $artists->fetch_assoc()) {
           ?>
           <tr>
-            <td><?php echo $artist_row['ArtistID']; ?></td>
-            <td><?php echo $artist_row['Name']; ?></td>
-            <td><?php echo $artist_row['Genre']; ?></td>
+            <td><?php echo $artist['ArtistID']; ?></td>
+            <td><?php echo $artist['Name']; ?></td>
+            <td><?php echo $artist['Genre']; ?></td>
           </tr>
           <?php
         }
