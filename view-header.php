@@ -21,16 +21,16 @@
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="test.php">Test</a>
+              <a class="nav-link" href="artists.php">Artists</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post-result.php">Post Result</a>
+              <a class="nav-link" href="songs.php">Songs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="get.php">Get</a>
+              <a class="nav-link" href="users.php">Users</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="get-result.php">Get Result</a>
+              <a class="nav-link" href="playlists.php">Playlists</a>
             </li>
           </ul>
         </div>
