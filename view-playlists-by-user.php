@@ -5,7 +5,6 @@
     <thead>
       <tr>
         <th>Username</th>
-        <th>PlaylistID</th>
         <th>Playlist Name</th>
       </tr>
     </thead>
@@ -15,7 +14,6 @@
           ?>
           <tr>
             <td><?php echo $playlist['Username']; ?></td>
-            <td><?php echo $playlist['PlaylistID']; ?></td>
             <td><?php echo $playlist['PlaylistName']; ?></td>
           </tr>
           <?php
