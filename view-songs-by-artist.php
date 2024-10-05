@@ -7,6 +7,7 @@
         <th>SongID</th>
         <th>Title</th>
         <th>Genre</th>
+        <th>Name</th>
       </tr>
     </thead>
     <tbody>
@@ -17,6 +18,7 @@
             <td><?php echo $song['SongID']; ?></td>
             <td><?php echo $song['Title']; ?></td>
             <td><?php echo $song['Genre']; ?></td>
+            <td><?php echo $song['Name']; ?></td>
           </tr>
           <?php
         }
