@@ -3,7 +3,7 @@
 function selectPlaylists() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("select * from playlists");
+        $stmt = $conn->prepare("select distinct PlaylistName from Playlists;");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
