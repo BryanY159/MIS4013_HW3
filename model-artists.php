@@ -1,9 +1,9 @@
 <?php
 
-function selectTest() {
+function selectArtists() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("select * from test");
+        $stmt = $conn->prepare("select * from artists");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
