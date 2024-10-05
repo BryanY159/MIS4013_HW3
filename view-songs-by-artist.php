@@ -4,10 +4,10 @@
   <table class="table">
     <thead>
       <tr>
+        <th>Artist Name</th>
         <th>SongID</th>
         <th>Title</th>
         <th>Genre</th>
-        <th>Name</th>
       </tr>
     </thead>
     <tbody>
@@ -15,10 +15,10 @@
         while($song = $songs->fetch_assoc()) {
           ?>
           <tr>
+            <td><?php echo $song['Name']; ?></td>
             <td><?php echo $song['SongID']; ?></td>
             <td><?php echo $song['Title']; ?></td>
             <td><?php echo $song['Genre']; ?></td>
-            <td><?php echo $song['Name']; ?></td>
           </tr>
           <?php
         }
